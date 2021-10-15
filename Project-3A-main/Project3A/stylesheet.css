@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Header by Annisa Ubay */
+header {
+  position: absolute;
+  height: 4rem;
+  width: 100%;
+  background-color: #F9F9F9;
+  top: 0;
+  z-index: 2;
+}
+
+header .container{
+  padding: 0 1.5rem;
+}
+
+.logo {
+  padding: 0.8rem;
+  width: 48%;
+  margin-top: 0;
+  color:#F9F9F9;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+}
+
+/* CSS untuk tag <a> didalam header-right */
+.header-right a {
+  line-height: 65px;
+  padding: 0 1.2rem;
+  color: #242E32;
+  display: inline-block;
+  font-size: 1.2rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header-right a:hover{
+  color: #D35054;
+  transition: all ease 0.3s;
+}
+/* End of Header */
+
+
+/* Body by Annisa Putri dan Anugrah */
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #F9F9F9;
+  margin: 0;
+  padding: 0;
+}
+
+.sec {
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.sec1 {
+  background-image: url(images/cover1.png);
+  background-size: cover;
+  color: #F9F9F9;
+  margin-top: -1.5rem;
+}
+
+.sec1 .content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[1];
+      grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 12rem 12rem 0 12rem;
+}
+
+.sec1 .content .wrap p {
+  font-weight: 1.5rem;
+}
+
+.sec1 .content .scroll {
+  margin-top: 15rem;
+}
+
+.sec1 .content .scroll p {
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+}
+
+.sec1, .sec2 {
+  height: 115vh;
+}
+
+.sec2 .wrap {
+  padding: 3rem;
+}
+
+.sec2 .wrap h1 {
+  margin-bottom: 3.5rem;
+}
+
+.sec2 .wrap .content-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.sec2 .wrap .content-wrap .content {
+  width: 18rem;
+  height: 19rem;
+  text-align: center;
+  margin: 1rem;
+}
+
+.sec2 .wrap .content-wrap .content img {
+  width: 100%;
+  height: auto;
+}
+
+.sec2 .wrap .content-wrap .content p {
+  font-size: 0.8rem;
+}
+
+.sec3 {
+  height: 100vh;
+  background-image: url(images/cover2.png);
+  background-size: cover;
+  color: #F9F9F9;
+}
+
+.sec3 .content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[1];
+      grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 12rem 12rem 0 12rem;
+}
+
+.sec3 .content h1 {
+  font-size: 2.5rem;
+  margin-bottom: -1.2rem;
+}
+
+.sec3 .content p, .sec3 .content a {
+  font-size: 1.5rem;
+}
+
+.sec3 .content a {
+  margin-top: 1.5rem;
+  border: 3px solid #F9F9F9;
+  padding: 1.5rem 3rem;
+  border-radius: 15px;
+  text-decoration: none;
+  color: #F9F9F9;
+}
+
+.sec3 .content a:hover {
+  background: #F9F9F9;
+  color: #242E32;
+  font-weight: bold;
+  -webkit-transition: all ease 0.4s;
+  transition: all ease 0.4s;
+}
+
+.sec1 h1, .sec2 h1 {
+  font-size: 3rem;
+}
+/* End of Body*/
+
+
+/* Footer  by Aris */
+li{
+  list-style: none;
+}
+
+footer{
+  background-color:white;
+  height: 200px;
+  
+}
+footer img{
+  padding-left: 50px;
+}
+.namatim{
+  font-weight: bold;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  padding-top: 20px;
+  float:left
+}
+
+.footer-list{
+  list-style: none;
+  float: right;
+  margin: 0;
+  padding-top: 20px;
+  padding-right: 40px; ;
+  padding-bottom: 30px;
+  text-align: right;
+  line-height: 20px;
+  font-weight: bolder;
+  font-size: 15px;
+
+}
+.footer-list ul p{
+  font-weight: bold;
+  font-size: 16px;
+}
